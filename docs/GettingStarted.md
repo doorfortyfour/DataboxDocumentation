@@ -1,10 +1,10 @@
-## Getting started  
+## Installation
 To get started quickly, simply download the Unity package from the Asset-Store. After installation you should have a new Databox folder under your Assets project folder.
 
 > You can move the Databox folder wherever you want inside of your project
 
 
-### Create a Databox object
+### Getting started
 
 1. Right click in the project view and select Create -> Databox -> New Databox Object
 
@@ -20,5 +20,5 @@ To get started quickly, simply download the Unity package from the Asset-Store. 
 Demo scenes are all inside of a separate Unity package located in the `Databox / Demo` folder.  
 
 
-## Next:
+## Next
 See the next step here: Concept and workflow
