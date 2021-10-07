@@ -6,7 +6,7 @@ To get started quickly, simply download the Unity package from the Asset-Store. 
 
 ### Getting started
 
-1. Right click in the project view and select Create -> Databox -> New Databox Object
+1. Right click in the project view and select `Create / Databox / New Databox Object`
 
 ### .NET 4.x
 
