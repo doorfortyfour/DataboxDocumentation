@@ -20,7 +20,8 @@ During runtime you can now easily "register" an existing entry from your initial
 ```
 
 By using `RegisterToDatabase`, Databox populates the runtime Databox object with an initial entry from the initial Databox object. It is important to pass a unique string id for the new entry name. For example, when instantiating multiple "enemies" of the same type "Boss1" you should make sure to register them with an unique id, to make sure each enemy has its unique assigned values in the runtime Databox object.  
-> For using a unique id you could use: 
+
+**For using a unique id you could use:**  
 ```csharp
     this.gameObject.GetInstanceID().ToString()
 ```
