@@ -44,4 +44,4 @@ Simply click on `Save` in the Databox Object editor.
 You can also enable automatic saving in the config menu. Please note this only works in the Unity editor during design time.
 
 ### Load 
-Loading a Databox object file 
+To load a file, simply select `Load` in the Databox object.
