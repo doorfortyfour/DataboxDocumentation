@@ -1,7 +1,13 @@
 <!-- TODO: Complete with your own sidebar structure and enable sidebar in index.html - or delete this file. -->
-- [Home](/#docsifyjs-template)
-- [Fizz]()
-- [Buzz]()
-- Foo
+- [Getting Started](/#docsifyjs-template)
+- [Setup]()
+- [Concept And Workflow]()
+- [Databox Object]
     * [Bar]()
     * [Baz]()
+- [Databox Object Manager]()
+- [Runtime editor]()
+- [UI Binding]()
+- [Databox Types]()
+- [Runtime Usage]()
+- [Custom Data Type]()
