@@ -16,18 +16,18 @@ The save files Databox object would be then just an empty Databox object pre-con
 
 ### Add Data
 You are now ready to add your data.
-Databox has its own Databox variable classes which can be used to create complex data classes including nested classes, lists and complex GUI based on Unity IMGUI.
+Databox has its own Databox variable classes which can be used to create complex data classes including nested classes, lists and complex GUI based on the Unity IMGUI.
 
 1. First we need to add a table. Enter a name for your table. Example: `Table1`
 You can now add an entry. Each entry can contain multiple values.
 2. Enter `Enemy` as entry name and `Health` as value name.
-3. Because health should be an integer lets add the `Int` type.
+3. Because health should be an integer lets select the `Int` type.
 4. Click on `Add Value`
 
 Great! You have successfully added your first data.
 
 ### Complex Data
-Databox variable types are not limited to have only one type for each value entry.
+Databox variable types are not limited to contain only one type for each value entry.
 As an example lets add the EnemyExampleClass
 1. Enter a new name in the value field
 2. Select the EnemyExampleClass type 
