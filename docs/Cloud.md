@@ -31,3 +31,20 @@ Please add the string information according to your MySQL database setup. The `d
 
 ## Unique ID
 > You can use the Unique id in the configuration to create different upload versions for different Databox Objects or for different team members.
+
+
+# Sync to cloud
+It is always wise to save your file before doing a sync.  
+
+`1. Check`  
+Before you can sync you'll need to click on the `1. Check` button. This will check if the connection to the cloud is ready and which version is newer - local version or cloud version.  
+`2. Sync & Compare`    
+After the check has been accomplished you can click on `2. Sync & Compare`. This will sync to the newest version. You will see all changes in the output.  
+`3. Revert`  
+If you don't like the changes you can then click on `3. Revert`. This will revert the data back to the version before sync.
+`Force Upload`  
+Forcing an upload overrides the cloud version with your local version. No matter which version is newer!
+`Force Download`  
+Forcing a download overrides the local version with the cloud version. No matter which version is newer!
+
+!> Warning! Only use force upload and download if you know what you do.
