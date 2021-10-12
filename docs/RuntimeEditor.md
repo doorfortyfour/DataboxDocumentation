@@ -1,4 +1,7 @@
 # Runtime editor  
+  
+![RuntimeEditor](img/runtimeEditor.png)  
+  
 The runtime editor allows you to access all of your data at runtime as long as your data is using the GUILayout API for drawing it's value.  
 (EditorGUILayout API won't work for runtime builds)
 
