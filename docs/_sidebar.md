@@ -2,7 +2,7 @@
 - [Getting Started](/#docsifyjs-template)
 - [Setup]()
 - [Concept And Workflow]()
-- [Databox Object]
+- [Databox Object]()
     * [Bar]()
     * [Baz]()
 - [Databox Object Manager]()
