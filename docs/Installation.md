@@ -16,6 +16,6 @@ To get started quickly, simply download the Unity package from the Asset-Store. 
 Demo scenes are all inside of a separate Unity package located in the `Databox / Demo` folder.  
 
 
-## Next
+#### Next
 See the next step here:  
 [Quick Start](/QuickStart.md)
