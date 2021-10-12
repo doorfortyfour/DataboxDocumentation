@@ -28,7 +28,7 @@ Databox has its own Databox variable classes which can be used to create complex
 2. Select the newly created table tab.  
 
 You can now add an entry. Each entry can contain multiple values.  
-![addEntry](img/addEntry.md)  
+![addEntry](img/addEntry.png)  
 2. Enter `Enemy` as entry name and `Health` as value name.  
 3. Because health should be an integer lets select the `Int` type.  
 4. Click on `Add Value`  
