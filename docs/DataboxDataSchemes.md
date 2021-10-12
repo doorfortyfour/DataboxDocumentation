@@ -17,6 +17,6 @@ Now that you have created a Databox scheme object you can assign it to your Data
   
 1. Select a Databox object. On the right side in the editor choose `Add Scheme` from the dropdown.  
 2. Assign the Databox scheme object to the empty slot.  
-3. Set a new Entry name.  
+3. Set a new entry name.  
 4. Select the scheme you want to add  
-5. Click on Add Scheme  
+5. Click on the button `Add Scheme`  
