@@ -1,6 +1,6 @@
 # Runtime usage
 To use Databox at runtime simply make sure to have a reference to a Databox object.  
-!> It is important to load your data before accessing it.   
+!> It is important to load your data before accessing it.  
 
 You can register a method to the `OnDatabaseLoaded` event, which will be called when your database has been loaded.
 
