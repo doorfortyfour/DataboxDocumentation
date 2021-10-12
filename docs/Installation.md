@@ -5,12 +5,13 @@ To get started quickly, simply download the Unity package from the Asset-Store. 
 
 
 ## .NET 4.x
-
-!-> Databox supports Odin Serializer and FullSerializer. To make sure Odin Serializer works properly, you'll have to set the API compatibility level to .NET 4.x in the Unity player settings.
-.NET 2.0 - Since version 1.1.1
   
-!-> If you want to use .NET 2.0, then you need to remove the OdinSerializer folder located at: Databox/Core/Serializers.
+!> Databox supports Odin Serializer and FullSerializer. To make sure Odin Serializer works properly, you'll have to set the API compatibility level to .NET 4.x in the Unity player settings.  
 
+## .NET 2.0 - Since version 1.1.1
+  
+!> If you want to use .NET 2.0, then you need to remove the OdinSerializer folder located at: Databox/Core/Serializers.  
+  
 
 ## Demo scenes
 Demo scenes are all inside of a separate Unity package located in the `Databox / Demo` folder.  
