@@ -18,10 +18,13 @@ The file name relative to the chosen save folder. You can also specify a subfold
   
 `Persistent Data Path:`  
 Should be used for save game data only. Do not use it for your initial database data as it will not be included in a build.  
+  
 `Streaming Asset Path:`  
 Uses the "StreamingAssets" folder inside of your project. Great for files that should be loaded and saved upon runtime.
+  
 `Resources:`  
 Use the resources path for loading the database file from a resources folder. It's not possible to save to a resources folder during runtime.
+  
 `PlayerPrefs:`  
 Player prefs are a good way to create save games at runtime. Do not use it for your initial database data as it will not be included in a build.
 
@@ -46,9 +49,9 @@ Compressing the json file significantly reduces the file size. On the other hand
 Databox supports a simple XOR encryption. When enabled you'll need to provide an encryption key.  
 
 `Data Format`  
-Odin serializer supports two different data formats.
-  *JSON: Saves the data in a json formated file
-  *Binary: Saves the data in a binary formated file. Usually smaller file size compared to json.
+Odin serializer supports two different data formats.  
+  *JSON: Saves the data in a json formated file  
+  *Binary: Saves the data in a binary formated file. Usually smaller file size compared to json.  
   
 ### Editor
 
