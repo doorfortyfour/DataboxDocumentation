@@ -18,4 +18,4 @@ Demo scenes are all inside of a separate Unity package located in the `Databox /
 
 ## Next
 See the next step here:  
-[Setup](/Setup.md)
+[Quick Start](/QuickStart.md)
