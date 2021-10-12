@@ -1,5 +1,5 @@
 # Databox Data Schemes
-A Databox scheme is like a template for your data. This feature allows you to build a data structure containing multiple different value types which can then be added to your databox object. This is great if you want to create multiple entries like enemies were all have the same value types like: name, description, health, strength etc. So instead of adding each value separately you can create a data scheme first. Then you only have to add the scheme for each new enemy you want to add.  
+A Databox scheme is like a template for your data. This feature allows you to build a data structure containing multiple different value types which can then be added to your databox object. This is great if you want to create multiple entries like enemies where all have the same value types like: name, description, health, strength etc. So instead of adding each value separately you can create a data scheme first. Then you only have to add the scheme for each new enemy you want to add.  
 
 ## Create a Databox data scheme
 
