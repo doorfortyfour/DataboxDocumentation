@@ -41,7 +41,7 @@ To know how to use addressables (Instantiate, Loading) please refer to the offic
 [Documentation](https://docs.unity3d.com/Packages/com.unity.addressables@0.4/manual/index.html)  
   
 ## Modifiable Int and Float type
-[!modifiableFloatInt](img/exampleModifiableTypes.png)  
+![modifiableFloatInt](img/exampleModifiableTypes.png)  
   
 When using the modifiable int and float type you can add additional modifiers to the base value. 
 When returning a value, it will be modified by the modifiers which are enabled.
