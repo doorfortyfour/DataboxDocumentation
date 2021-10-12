@@ -1,4 +1,4 @@
-# Setup
+# QuickStart
 
 This is a step by step tutorial for creating your first Databox object and adding data to it.
 
