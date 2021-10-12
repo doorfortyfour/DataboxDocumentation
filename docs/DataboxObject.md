@@ -70,6 +70,8 @@ By enabling debug mode, Databox will create console logs on several events.
 Configure how many entries should be displayed per page in the Databox editor.  
 
 ## Generate Keys
+![generateKeys](img/generatekeys.png)  
+  
 Instead of using strings for calling GetData and AddData - which can be error prone - you can generate static keys from your DataboxObject. Another great advantage is, that static keys are structured in classes and sub-classes based on tables and entries.
   
 1. Simply click on the Generate Keys button in the Databox Object editor.  
