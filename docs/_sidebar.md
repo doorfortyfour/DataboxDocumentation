@@ -1,6 +1,7 @@
 <!-- TODO: Complete with your own sidebar structure and enable sidebar in index.html - or delete this file. -->
 - [Installation](/Installation.md)
 - [Quick Start](/QuickStart.md)
+- [Demo Scenes](/DemoScenes.md)
 - [Concept And Workflow](/ConceptAndWorkflow.md)
 - [Databox Object](/DataboxObject.md)
 - [Databox Object Manager](/DataboxObjectManager.md)
