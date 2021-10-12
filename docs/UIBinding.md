@@ -1,5 +1,6 @@
 # UI Binding
-[IMAGE]  
+![UIBinding](img/uibinding.png)  
+  
 Databox has a very simple but powerful UI Binding component which allows you to bind Unity UI elements - Text, InputFields, Sliders, Toggles... - to a specific Databox object.
   
 Simply add the `DataboxUIBinding` component to a UI Element, define the table, entry and value id and you're done.  
