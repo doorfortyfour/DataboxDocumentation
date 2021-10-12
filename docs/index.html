@@ -29,6 +29,7 @@
     <!-- Syntax highlighting.-->
     <!-- TODO: Add prism-bash, prism-python, prism-javascript etc. as separate items so you can load syntax highlighting for that language. -->
     <script defer src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-csharp.min.js"></script>
 
 </head>
 
@@ -36,12 +37,12 @@
     <div id="app"></div>
 
     <script>
-        var repoUrl = "https://github.com/MichaelCurrin/docsify-js-template"; // TODO: Update.
-        var editPath = repoUrl + "/blob/master/docs/";
-        var editMsg = "📝 Edit on GitHub";
+        var repoUrl = ""; //"https://github.com/MichaelCurrin/docsify-js-template"; // TODO: Update.
+        var editPath = ""; //repoUrl + "/blob/master/docs/";
+        var editMsg = ""; //"📝 Edit on GitHub";
         
         window.$docsify = {
-            name: "DocsifyJS Template", // TODO: Update.
+            name: "Databox Documentation", // TODO: Update.
             repo: repoUrl,
             
             auto2top: true,
@@ -49,10 +50,10 @@
             loadSidebar: true,
             subMaxLevel: 2,
             themeColor: "#3170a7", // TODO: Set your own color.
-
+            /*
             plugins: [
                 EditOnGithubPlugin.create(editPath, null, editMsg)
-            ],
+            ],*/
         }
 
     </script>
