@@ -3,8 +3,6 @@
 - [Quick Start](/QuickStart.md)
 - [Concept And Workflow](/ConceptAndWorkflow.md)
 - [Databox Object](/DataboxObject.md)
-    * [Bar]()
-    * [Baz]()
 - [Databox Object Manager](/DataboxObjectManager.md)
 - [Runtime editor](/RuntimeEditor.md)
 - [UI Binding](/UIBinding.md)
