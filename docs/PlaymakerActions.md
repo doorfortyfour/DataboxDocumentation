@@ -3,7 +3,7 @@
 Loads the selected Databox object file. Calls OnFinish when databox object has been loaded.  
   
 # SaveDataboxObject
-![saveDataboxObject](img/acionSaveDataboxObject.png)  
+![saveDataboxObject](img/actionSaveDataboxObject.png)  
 Saves the selected Databox object to file.  
   
 # GetData
@@ -17,9 +17,18 @@ if true, Databox uses the Owner Instance ID. This is useful if you have register
   
 # SetData
 ![setData](img/actionSetData.png)  
+Set data from a PlayMaker variable to a selected Databox value.
+
+`non existent entry`:  
+set to true if entry does not exist in editor.(for example only on runtime) You can then type the IDs manually.  
+`Use owner Instance ID`:  
+if true, Databox uses the Owner Instance ID. This is useful if you have registered an entry at runtime by it's Instance ID.  
   
 # AddData
 ![addData](img/actionAddData.png)  
+Add a new Data entry to selected Databox object
+
+
   
 # RemoveTable
 ![removeTable](img/actionRemoveTable.png)  
