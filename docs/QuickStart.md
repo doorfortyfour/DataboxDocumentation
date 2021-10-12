@@ -52,7 +52,7 @@ As an example lets add the `ExampleClass`
 As you can see, this example class has much more then just one value. You can also create complex UI based on the Unity IMGUI.
 Simply open the file `ExampleClass` file in your script editor to see how this was achieved.
 More information about creating your own Databox Data type head over to:  
-[Custom Data Type](https://doorfortyfour.github.io/DataboxDocumentation/#/CustomDataType)  
+[Custom Data Type](/CustomDataType.md)  
   
 
 ## Save
