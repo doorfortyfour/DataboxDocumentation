@@ -4,9 +4,9 @@ A Databox object (Scriptable object file) serves as a container for your data. A
 A Databox object saves and loads the data to a file. Depending on the serializer and data format you have chosen this can be a json file or a binary file.
 
 You can setup multiple Databox objects in your project each with different save paths and file names if you like. Please consider following image in regards of all available save paths. It is important to know the location of a save paths. (User device/User computer or Game build)
-
-
-
+  
+![savepaths](img/savepaths.png)
+  
 
 ## Workflow
 
