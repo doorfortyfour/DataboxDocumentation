@@ -1,7 +1,7 @@
 # Custom data type
 Every supported data type in Databox is derived from DataboxType. Follow these instructions to create a custom databox type class.  
   
-You can also have a look at the `ExampleCustomDataType.cs` script to see how you can create your own data types with custom editor ui.  
+You can also have a look at the `ExampleCustomDataType.cs` script, located at: `Databox / Types`, to see how you can create your own data types with custom editor ui.  
   
 1. Create a new C# class and name it like you wish. (In this example: CustomDataClass)  
 2. Add the namespace Databox to the class.  
