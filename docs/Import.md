@@ -5,9 +5,9 @@ To make sure Databox recognizes the correct data types you will need to setup th
   
 Use following keys to mark the appropriate fields:  
 `DB_FIELD_NAMES`  
-The actual name of the value/variable
+The actual name of the value/variable  
 `DB_FIELD_TYPES`  
-The type of the value. Use the exact name of the data class. (FloatType, IntType...)
+The type of the value. Use the exact name of the data class. (FloatType, IntType...)  
 `DB_IGNORE`  
 Mark rows and cells you don't want to import with this key.  
   
