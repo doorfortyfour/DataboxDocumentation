@@ -13,4 +13,6 @@
 - [Runtime Usage](/RuntimeUsage.md)
 - [Save And Load On Mobile](/SaveAndLoadMobile.md)
 - [Custom Data Type](/CustomDataTypes.md)
+- [Playmaker](/Playmaker.md)
+- [Playmaker Actions](/PlaymakerActions.md)
 - [API](/API.md)
