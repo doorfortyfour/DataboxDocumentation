@@ -6,6 +6,8 @@ For an example please see the **ExampleDataTypeClass**
 
 # Special types
 ## Resource type
+![ResourceType](img/resourcetype.png)  
+  
 The resource type is a special data type and stores the string path of an asset located in a resource folder.  
 When calling the `GetData` on a Databox object with a ResourceType, Databox loads the prefab or asset automatically.
 
@@ -39,6 +41,8 @@ To know how to use addressables (Instantiate, Loading) please refer to the offic
 [Documentation](https://docs.unity3d.com/Packages/com.unity.addressables@0.4/manual/index.html)  
   
 ## Modifiable Int and Float type
+[!modifiableFloatInt](img/exampleModifiableTypes.png)  
+  
 When using the modifiable int and float type you can add additional modifiers to the base value. 
 When returning a value, it will be modified by the modifiers which are enabled.
   
