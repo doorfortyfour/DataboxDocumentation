@@ -1,4 +1,4 @@
-## Concept And Workflow
+# Concept And Workflow
 A Databox object (Scriptable object file) serves as a container for your data. All your data is nicely structured in tables, entries and values.
 
 A Databox object saves and loads the data to a file. Depending on the serializer and data format you have chosen this can be a json file or a binary file.
@@ -28,6 +28,3 @@ By using `RegisterToDatabase`, Databox populates the runtime Databox object with
   
 Instead of using `RegisterToDatabase` you can also simply copy the initial file to the persistent data path. When your game starts for the first time. For more information about this workflow please see: [Save and Load on Android](/SaveAndLoadAndroid.md)
 
-
-
-See the next step here: Configuration
