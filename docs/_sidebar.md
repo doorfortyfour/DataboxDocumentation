@@ -12,7 +12,7 @@
 - [Databox Types](/DataboxTypes.md)
 - [Runtime Usage](/RuntimeUsage.md)
 - [Save And Load On Mobile](/SaveAndLoadMobile.md)
-- [Custom Data Type](/CustomDataTypes.md)
+- [Custom Data Type](/CustomDataType.md)
 - [Playmaker](/Playmaker.md)
 - [Playmaker Actions](/PlaymakerActions.md)
 - [API](/API.md)
