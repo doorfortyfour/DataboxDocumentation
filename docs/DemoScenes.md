@@ -5,6 +5,7 @@
 The basic scene shows you the basic principals of Databox and how you can load and save existing objects during runtime.  
 
 **Scripts**  
+  
 `SimpleDataboxLinkking.cs`
 The cube and the sphere objects have both a script called "SimpleDataboxLinking".  
 This script waits for the database to be loaded. On loaded it takes all values from the database and assigns them to the sphere. (position, color, speed, direction)  
@@ -42,7 +43,8 @@ It also has a simple techtree which demonstrates how you can use a custom data c
 The techtree UI dynamically rebuilds itself based on the tech data. This is a great demonstration of a custom data class.  
 By changing the dependency in the tech data you can change the arrangement of the techtree UI.  
   
-**Scripts**
+**Scripts**  
+  
 `AdvancedDataboxLinking.cs`  
 Registers the game object to the database according to objectID, fromDBId and toDBId variables.  
 `AssignObjectValues.cs`  
