@@ -23,11 +23,11 @@ Please add the string information according to your MySQL database setup. The `d
 6. Upload all files located in the `CloudService` folder to your newly created folder via FTP.  
 7. Open your default web browser and navigate to the `setup.php` file which is located in the newly created folder. So if you have uploaded all files to a folder called "databox", navigate to: http://mywebserver.com/databox/setup.php  
 8. You should now see the databox setup screen.
-[IMAGE]
+![cloudsetup](img/cloudSetup.png)  
 9. Click on install.  
 10. Databox Cloud has been installed on your server.  
+![cloudConfig](img/cloudConfiguration.png)  
 11. You can now use the server url in the unity databox object. (the folder where you have uploaded all files) Example: http://mywebserver.com/databox  
-[IMAGE]
 
 ## Unique ID
 > You can use the Unique id in the configuration to create different upload versions for different Databox Objects or for different team members.
