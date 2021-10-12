@@ -228,19 +228,110 @@ Remove value from entry.
 ## Databox Object Events
 
 ### OnDatabaseLoaded
-### OnDatabaseSaving
-### OnDatabaseSaved
-### OnDatabaseCloudDownloaded
-### OnDatabaseCloudDownloadFailed
-### OnDatabaseCloudUploaded
-### OnDatabaseCloudUploadFailed
+Is being called after database has been loaded.  
+```csharp
+    public DataboxEvents OnDatabaseLoaded;
+```  
 
+### OnDatabaseSaving
+Is being called as soon as saving the databox object starts.  
+```csharp
+    public DataboxEvents OnDatabaseSaving;
+```
+  
+### OnDatabaseSaved
+Is being called after successfully saving the database.  
+```csharp
+    public DataboxEvents OnDatabaseSaved;
+```
+  
+### OnDatabaseCloudDownloaded
+Is being called after the database has been downloaded.  
+```csharp
+    public DataboxEvents OnDatabaseCloudDownloaded;
+```
+  
+### OnDatabaseCloudDownloadFailed
+Is being called after database download failed.  
+```csharp
+    public DataboxEvents OnDatabaseCloudDownloadFailed;
+```
+  
+### OnDatabaseCloudUploaded
+Is being called after the database has been uploaded.  
+```csharp
+    public DataboxEvents OnDatabaseCloudUploaded;
+```
+  
+### OnDatabaseCloudUploadFailed
+Is being called after database upload failed.  
+```csharp
+    public DataboxEvents OnDatabaseCloudUploadFailed;
+```
+  
 ## Databox Types
 ### Reset
+Resets the value back to it's initial value. When creating a custom class you will need to add the reset functionality to it yourself.  
+See the Create a custom class Example.
+```csharp
+    public virtual void Reset(){}
+```
+  
+**Example**
+```csharp
+    public DataboxObject data;
+    // First get the data you want to reset
+    var value = data.GetData<FloatType>("Table", "Entry", "Value");
+    
+    // Now reset the value
+    value.Reset();
+```
+  
 ### OnValueChanged
-
+This event is being called as soon as the appropriate value has been changed.  
+This is also great for custom data binding.  
+```csharp
+    public ValueChanged OnValueChanged;
+```  
+**Example**  
+```csharp
+    // Register to event
+    public void OnEnable()
+    {
+        FloatType health = database.GetData<FloatType>("Table", "Entry", "Value");
+        health.OnValueChanged += ValueChanged;
+    }
+    // Called as soon as value has been changed
+    public void ValueChanged(DataboxType _value)
+    {
+        Debug.Log("Value has changed")
+    }
+```
+  
 ## Databox Object Manager
+  
 ### GetDataboxObject
-
+Returns the Databox object according to it's id specified in the DataboxManager.  
+```csharp
+    public DataboxObject GetDataboxObject(string _dbName)
+```
+  
 ## Databox UIBinding
+The UIBinding component allows you to bind ui elements to your Databox object.  
+  
 ### Bind
+Binds a Unity UI component at runtime to a Databox object.  
+```csharp
+    public void Bind(DataboxObject _databoxObject, string _tableID, string _entryID, string _valueID)
+    public void Bind(string _tableID, string _entryID, string _valueID)
+  
+    //Passing the databaseID to the method will use the DataboxManager script to retrieve the databox object
+    public void Bind (string _dbID, string _tableID, string _entryID, string _valueID)
+```
+  
+`_databoxObject`: The Databox object which should be used  
+`_dbID`: The database id assigned to DataboxManager  
+`_tableID`: The name of the Databox table  
+`_entryID`: The entry name  
+`_valueID`: The value name  
+  
