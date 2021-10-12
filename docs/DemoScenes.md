@@ -38,6 +38,7 @@ It also has a simple techtree which demonstrates how you can use a custom data c
   
 
 **Techtree**  
+  
 ![techtree](img/techtree.png)  
   
 The techtree UI dynamically rebuilds itself based on the tech data. This is a great demonstration of a custom data class.  
