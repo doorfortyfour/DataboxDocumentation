@@ -29,9 +29,9 @@ Databox has its own Databox variable classes which can be used to create complex
 
 You can now add an entry. Each entry can contain multiple values.  
 ![addEntry](img/addEntry.png)  
-2. Enter `Enemy` as entry name and `Health` as value name.  
-3. Because health should be an integer lets select the `Int` type.  
-4. Click on `Add Value`  
+1. Enter `Enemy` as entry name and `Health` as value name.  
+2. Because health should be an integer lets select the `Int` type.  
+3. Click on `Add Value`  
 
 Great! You have successfully added your first data.
 
@@ -51,8 +51,9 @@ As an example lets add the `ExampleClass`
     
 As you can see, this example class has much more then just one value. You can also create complex UI based on the Unity IMGUI.
 Simply open the file `ExampleClass` file in your script editor to see how this was achieved.
-More information about creating your own Databox Data type head over to:
-
+More information about creating your own Databox Data type head over to:  
+[Custom Data Type](https://doorfortyfour.github.io/DataboxDocumentation/#/CustomDataType)  
+  
 
 ## Save
 Now that you have added your data you need to save it to your file.
