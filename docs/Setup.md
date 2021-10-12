@@ -1,8 +1,8 @@
-## Setup
+# Setup
 
 This is a step by step tutorial for creating your first Databox object and adding data to it.
 
-### Create a Databox object
+## Create a Databox object
 A Databox object serves as a container for your data. Each Databox object can be configured with a different save path. 
 This means that you could have multiple Databox objects in your project each handling different files in different locations.
 
@@ -14,7 +14,7 @@ The save files Databox object would be then just an empty Databox object pre-con
 2. Select the newly created Databox object and click on `Config`  
 3. In the config menu you can now set your save path (file name + path). Read more about all save paths here: [Concept & Workflow](/ConceptAndWorkflow.md)  
 
-### Add Data
+## Add Data
 You are now ready to add your data.
 Databox has its own Databox variable classes which can be used to create complex data classes including nested classes, lists and complex GUI based on the Unity IMGUI.
 
@@ -26,7 +26,7 @@ You can now add an entry. Each entry can contain multiple values.
 
 Great! You have successfully added your first data.
 
-### Complex Data
+## Complex Data
 Databox variable types are not limited to contain only one type for each value entry.
 As an example lets add the EnemyExampleClass
 1. Enter a new name in the value field
@@ -38,10 +38,10 @@ Simply open the file `EnemyExampleClass` file in your script editor to see how t
 More information about creating your own Databox Data type head over to:
 
 
-### Save
+## Save
 Now that you have added your data you need to save it to your file.
 Simply click on `Save` in the Databox Object editor.
 You can also enable automatic saving in the config menu. Please note this only works in the Unity editor during design time.
 
-### Load 
+## Load 
 To load a file, simply select `Load` in the Databox object.
