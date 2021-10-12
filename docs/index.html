@@ -24,11 +24,11 @@
     <!-- Edit on GitHub plugin. -->
     <!--<script src="//unpkg.com/docsify-edit-on-github/index.js"></script> -->
 
-    <!-- Docsify core. -->
-    <script defer src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <!-- Docsify core.
+    <script defer src="//unpkg.com/docsify/lib/docsify.min.js"></script> -->
     <!-- Syntax highlighting.-->
-    <!-- TODO: Add prism-bash, prism-python, prism-javascript etc. as separate items so you can load syntax highlighting for that language. -->
-    <script defer src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>
+    <!-- TODO: Add prism-bash, prism-python, prism-javascript etc. as separate items so you can load syntax highlighting for that language. 
+    <script defer src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>-->
     <!--<script src="//unpkg.com/prismjs/components/prism-csharp.min.js"></script>-->
 
 </head>
@@ -55,6 +55,11 @@
                 EditOnGithubPlugin.create(editPath, null, editMsg)
             ],*/
         }
+        
+        <!-- Syntax highlighting -->
+        <!-- TODO Add prism-bash, prism-python, prism-javascript etc. as separate items to load highlighting for that language -->
+        <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>
+        <script src="//unpkg.com/prismjs/components/prism-csharp.min.js"></script>
 
     </script>
 
