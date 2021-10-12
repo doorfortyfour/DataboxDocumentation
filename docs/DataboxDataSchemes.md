@@ -9,8 +9,8 @@ A Databox scheme is like a template for your data. This feature allows you to bu
 3. Inside of the newly created scheme you can now add databox data types and build your scheme.  
 ![createScheme](img/createNewScheme.png)  
   
-5. Add a scheme  
   
+## Add a scheme  
 Now that you have created a Databox scheme object you can assign it to your Databox object.  
   
 ![addtodatabox](img/addSchemeToDatabox.png)  
