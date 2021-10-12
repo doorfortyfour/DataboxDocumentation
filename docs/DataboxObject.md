@@ -1,5 +1,6 @@
 # Databox Object  
-
+![editorOverview](img/editorOverview.png)  
+  
 The Databox object serves as a container for your loaded data. Your data is saved to a file.  
 Depending on your project you can have multiple Databox objects or just one which loads different files at runtime.  
 When referencing a Databox object you have access to several methods for accessing the data, loading and saving at runtime.  
