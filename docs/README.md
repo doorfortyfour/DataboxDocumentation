@@ -2,9 +2,7 @@
 
 ### Databox documentation
 
-[AssetStore](https://assetstore.unity.com) | 
+[AssetStore](https://assetstore.unity.com/packages/tools/utilities/databox-data-editor-save-solution-155189) | 
 [Installation](/Installation.md) | 
 [Quick Start](/QuickStart.md)
 </div>
-
-
