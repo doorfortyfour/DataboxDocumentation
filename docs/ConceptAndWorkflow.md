@@ -26,5 +26,5 @@ By using `RegisterToDatabase`, Databox populates the runtime Databox object with
     this.gameObject.GetInstanceID().ToString()
 ```
   
-Instead of using `RegisterToDatabase` you can also simply copy the initial file to the persistent data path. When your game starts for the first time. For more information about this workflow please see: [Save and Load on Android](/SaveAndLoadMobile.md)
+Instead of using `RegisterToDatabase` you can also simply copy the initial file to the persistent data path. When your game starts for the first time. For more information about this workflow please see: [Save and Load on Mobile](/SaveAndLoadMobile.md)
 
